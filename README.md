@@ -33,24 +33,24 @@ git clone https://github.com/SEU_USUARIO/chat-ai.git
 ### Passo 2: Instalar Dependências
 
 Acesse o diretório do projeto e instale as dependências:
-´´´bash
+```bash
 cd chat-ai
 npm install
-´´´
+```
 
 ### Passo 3: Criar o Arquivo .env
 
 Crie um arquivo .env na raiz do projeto com a chave de API da OpenAI:
-´´´bash
+```bash
 OPENAI_API_KEY=YOUR_API_KEY
-´´´
+```
 
 ### Passo 4: Rodar o Servidor
 
 Após configurar o arquivo .env, você pode rodar o servidor com o comando:
-´´´bash
+```bash
 npm start
-´´´
+```
 Isso iniciará o servidor na porta 5000. Acesse http://localhost:5000 no seu navegador para interagir com o chat.
 
 ## Estrutura de Arquivos
